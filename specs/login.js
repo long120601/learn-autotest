@@ -9,7 +9,7 @@ describe('login', () => {
     it('login failed username', async () => {
         await $('#username').addValue('student1')
         await $('#password').addValue('Password123')
-        await $('#submit').click();
+        await $('#submit').click()
 
         const myElem = await $('div[id="error"]')
         await expect(myElem).toHaveText('Your username is invalid!')
