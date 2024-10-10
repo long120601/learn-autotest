@@ -22,7 +22,7 @@ export const config = {
     //
     specs: [
         // 'specs/**/*.js'
-        'specs/login.js'
+        'specs/Alert.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -86,10 +86,10 @@ export const config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://practicetestautomation.com/practice-test-login/',
+    baseUrl: 'https://the-internet.herokuapp.com/context_menu',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 20000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
